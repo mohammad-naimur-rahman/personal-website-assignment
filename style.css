@@ -1,0 +1,185 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #3E3E3E;
+    background-color: #F2F4F4;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+#navbar{
+    text-align: right;
+    margin-right: 100px;
+    padding: 20px 0 30px 0;
+}
+#navbar li{
+    list-style: none;
+    display: inline-block;
+}
+#navbar li a{
+    color: #3E3E3E;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+section{
+    width: 100%;
+}
+.first-section{
+    margin: 50px 0;
+}
+.half-width{
+    box-sizing: border-box;
+    width: 49%;
+    float: left;
+    padding: 0 5%;
+}
+.half-width img{
+    width: 85%;
+    transition: .3s;
+}
+.half-width img:hover {
+    transform: scale(1.05);
+}
+.intro{
+    font-size: 70px;
+    line-height: 1;
+    color: #363958;
+}
+.intro-name{
+    font-size: 70px;
+    line-height: 1;
+    color: #FF8367;
+    letter-spacing: 8px;
+    transition: .4s;
+}
+.intro-name:hover {
+    transform: skewX(-5deg);
+}
+.main-area-text{
+    font-size: 18px;
+}
+.link-btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-image: linear-gradient(135deg, #F56060, #FC7762);
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+}
+.link-btn:hover {
+    color: #F56060;
+    border: 1px solid #F56060;
+    background: transparent;
+    transition:  .5s;
+}
+.second-section{
+    margin: 50px 0;
+}
+.about-intro{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: #363958;
+}
+.clear{
+    clear: both;
+}
+.projects{
+    padding: 50px 0;
+}
+.projects h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: #363958;
+}
+.projects h2 span{
+    color: #F46060;
+}
+
+.project-files{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 10%;
+}
+.project{
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgba(0,0,0,.2);
+}
+.project img{
+    width: 100%;
+}
+.project-texts{
+    margin-left: 15px;
+}
+.project-texts h3{
+    color: #363958;
+    font-size: 20px;
+}
+.review-section{
+    width: 80%;
+    padding: 50px 10%;
+}
+.review-header{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color:  #363958;
+}
+.review-header span{
+    color: #F46060;
+}
+.review-box{
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin: 4%;
+}
+.review-box img{
+    width: 40%;
+    border-radius: 50%;
+}
+.review-box h4{
+    color:  #363958;
+}
+.inquiry{
+    width: 60%;
+    padding: 50px 18%;
+}
+.inquiry-box{
+    background-image: url(images/works.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+.inquiry-box h3{
+    float: left;
+    margin: 100px 0 0 50px;
+    color: #ffffff;
+    font-size: 50px;
+}
+.inquiry-box a{
+    float: right;
+    margin: 100px 50px 0 0;
+}
+footer{
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer h3{
+    font-size: 20px;
+}
+footer h2 {
+    font-size: 35px;
+    color: #363958;
+}
+.icon-box img{
+    margin: 10px;
+    width: 40px;
+}
